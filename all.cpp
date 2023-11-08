@@ -285,3 +285,80 @@ int main(){
     return 0;
 }
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <iostream>
+using namespace std;
+
+struct 
+{
+    string nome;
+    int idade;
+    string codPostal;
+    string rua;
+    string cidade;
+    string pais;
+}pessoa1, pessoa2, pessoa3;
+
+int main(){
+    pessoa1.nome ="Manel";
+    pessoa1.idade = 20;
+    pessoa1.codPostal = "1234-567";
+    pessoa1.rua = "rua longa";
+    pessoa1.cidade = "mamamia";
+    pessoa1.pais = "Bananas";
+
+
+
+
+    pessoa2.nome ="Zé";
+    pessoa2.idade = 19;
+    pessoa2.codPostal = "4321-567";
+    pessoa2.rua = "rua do zé";
+    pessoa2.cidade = "sempreemquente";
+    pessoa2.pais = "Kiwis";
+
+
+
+
+    pessoa3.nome ="Manela";
+    pessoa3.idade = 23;
+    pessoa3.codPostal = "1544-567";
+    pessoa3.rua = "rua curta";
+    pessoa3.cidade = "diaenoite";
+    pessoa3.pais = "Peras";
+    
+}
+
+#include <iostream>
+using namespace std;
+
+int f(int x){
+    return x*x;
+};
+
+
+int main(){
+    cout << f(5) << endl;
+    cout<< f(10) << endl;
+}
+
+
+
+#include <iostream>
+using namespace std;
+
+int f(int x){
+    return x*x;
+};
+
+void ola(string msg){
+     cout << "-------------" << endl;
+     cout << "Error:" << msg << endl;
+}
+
+
+int main(){
+    ola(" u dumb ma boy");
+}
